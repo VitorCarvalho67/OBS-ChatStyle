@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/VitorCarvalho67/OBS-ChatStyle/assets/102667323/77bc3674-bdf1-4a26-8ac5-baca26af457d" alt="Imagem logo" />
+</p>
 
 # OBS-ChatStyle
 
