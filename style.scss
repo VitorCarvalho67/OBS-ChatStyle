@@ -2,10 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Imprima");
 
 :root {
-    --owner-color: #ffffff;
-    --moderator-color: #ffffff;
-    --member-color: #ffffff;
+    --font-color: #ffffff;
     --general-color: #00bb6d;
+    --background-owner: #f710ff;
+    --background-moderator: #5810ff;
+    --background-member: #10c7ff;
 }
 
 /* Background colors*/
@@ -62,7 +63,7 @@ yt-live-chat-text-message-renderer[author-type="owner"] #messgae {
     letter-spacing: 2px;
     padding: 20px;
     border-radius: 20px 20px 20px 20px;
-    background-color: var(--owner-color) !important;
+    background-color: var(--font-color) !important;
     color: #000000 !important;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
@@ -129,7 +130,7 @@ yt-live-chat-text-message-renderer[author-type="member"] #message {
     letter-spacing: 2px;
     padding: 20px;
     border-radius: 20px 20px 20px 20px;
-    background-color: var(--owner-color) !important;
+    background-color: var(--font-color) !important;
     color: #000000 !important;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
@@ -145,7 +146,7 @@ yt-live-chat-text-message-renderer #message {
     letter-spacing: 2px;
     padding: 20px;
     border-radius: 20px 20px 20px 20px;
-    background-color: var(--owner-color) !important;
+    background-color: var(--font-color) !important;
     color: #000000 !important;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
@@ -256,9 +257,9 @@ yt-live-chat-text-message-renderer #timestamp {
 yt-live-chat-text-message-renderer #author-name[type="owner"],
 yt-live-chat-text-message-renderer #author-name.owner,
 yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="owner"] {
-    color: var(--owner-color) !important;
+    color: var(--font-color) !important;
     border: 2px solid #ffffff00 !important;
-    background-color: #f710ff !important;
+    background-color: var(--background-owner) !important;
     padding: 10px !important;
     z-index: 2;
     border-radius: 20px 20px 20px 20px !important;
@@ -268,9 +269,9 @@ yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="owne
 /* Nama channel moderator */
 yt-live-chat-text-message-renderer #author-name[type="moderator"],
 yt-live-chat-text-message-renderer #author-name.moderator {
-    color: var(--moderator-color) !important;
-    border: 2px solid var(--moderator-color);
-    background-color: #5810ff !important;
+    color: var(--font-color) !important;
+    border: 2px solid var(--font-color);
+    background-color: var(--background-moderator) !important;
     padding: 10px !important;
     z-index: 2;
     border-radius: 20px 20px 20px 20px !important;
@@ -286,8 +287,8 @@ yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="mode
 yt-live-chat-text-message-renderer #author-name[type="member"],
 yt-live-chat-text-message-renderer #author-name.member,
 yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="member"] {
-    border: 2px solid var(--member-color);
-    color: var(--member-color) !important;
+    border: 2px solid var(--font-color);
+    color: var(--font-color) !important;
     background-color: #10c7ff !important;
     padding: 10px !important;
     border-radius: 20px 20px 20px 20px !important;
@@ -298,7 +299,7 @@ yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="memb
 
 /* Nama channel viewer biasa */
 yt-live-chat-text-message-renderer #author-name {
-    color: var(--owner-color) !important;
+    color: var(--font-color) !important;
     border: 2px solid #ffffff00 !important;
     background-color: #00ee93 !important;
     padding: 10px !important;
@@ -349,7 +350,7 @@ yt-live-chat-paid-message-renderer {
 }
 
 yt-live-chat-legacy-paid-message-renderer {
-    background-color: var(--member-color) !important;
+    background-color: var(--font-color) !important;
     margin: 4px 0 !important;
 }
 
