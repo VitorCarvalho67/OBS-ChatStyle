@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/VitorCarvalho67/OBS-ChatStyle/assets/102667323/7d7f4918-0fb5-4d1f-be50-cd2f13a2d5a1" style="height: 300px;" alt="Imagem logo" />
+  <img src="https://github.com/VitorCarvalho67/OBS-ChatStyle/assets/102667323/7d7f4918-0fb5-4d1f-be50-cd2f13a2d5a1" style=" width: 600px;" alt="Imagem logo" />
 </p>
 
 # OBS-ChatStyle
