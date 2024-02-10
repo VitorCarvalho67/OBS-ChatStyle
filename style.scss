@@ -20,6 +20,10 @@ yt-live-chat-renderer {
     background-color: transparent !important;
 }
 
+#content #message{
+    opacity: .7;
+}
+
 /* CONTENT CHAT */
 #content,
 yt-live-chat-text-message-renderer {
@@ -37,7 +41,7 @@ yt-live-chat-text-message-renderer {
     0% {
         transform: scale(0) translateX(0);
     }
-
+    
     30% {
         transform: scale(100%) translateX(-30px);
     }
@@ -46,15 +50,17 @@ yt-live-chat-text-message-renderer {
 /* Isi Pesan member biasa */
 yt-live-chat-text-message-renderer #message {
     margin-top: -25px;
-    border: 2px solid var(--general-color) !important;
     font-family: "arial";
     letter-spacing: .5px;
     padding: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--font-color) !important;
     border-radius: 20px 20px 20px 20px;
     color: #000 !important;
     font-size: 26px !important;
-    opacity: .7;
+    letter-spacing: 2px;
+    border: 0px solid #ffffff00 !important;
+    height: auto;
+    min-height: 20px;
 }
 
 /* Isi Pesan Owner */
@@ -62,34 +68,16 @@ yt-live-chat-text-message-renderer[author-type="owner"] #messgae {
     font-family: "arial";
     letter-spacing: 2px;
     padding: 20px;
-    border-radius: 20px 20px 20px 20px;
     background-color: var(--font-color) !important;
     color: #000000 !important;
-    background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     border: 0px solid #ffffff00 !important;
     font-size: 26px !important;
     height: auto;
     min-height: 20px;
-    opacity: .7;
     /* mensagem principal */
 }
 
-yt-live-chat-text-message-renderer #message {
-    font-family: "arial";
-    letter-spacing: 2px;
-    padding: 20px;
-    border-radius: 20px 20px 20px 20px;
-    color: #000000 !important;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px 20px 20px 20px;
-    border: 0px solid #ffffff00 !important;
-    font-size: 26px !important;
-    height: auto;
-    min-height: 20px;
-    opacity: .7;
-    /* mensagem principal */
-}
 
 yt-live-chat-text-message-renderer[author-type="owner"] #message::before,
 yt-live-chat-text-message-renderer[author-type="moderator"] #message::before,
@@ -107,6 +95,7 @@ yt-live-chat-text-message-renderer #message::before {
     border-width: 0 0 40px 40px;
     border-color: transparent transparent transparent rgb(255, 255, 255);
     z-index: 0;
+    opacity: 1;
 }
 
 /* Isi Pesan Moderator */
@@ -114,7 +103,6 @@ yt-live-chat-text-message-renderer[author-type="moderator"] #message {
     font-family: "arial";
     letter-spacing: 2px;
     padding: 20px;
-    border-radius: 20px 20px 20px 20px;
     color: #000000 !important;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
@@ -132,39 +120,23 @@ yt-live-chat-text-message-renderer[author-type="member"] #message {
     border-radius: 20px 20px 20px 20px;
     background-color: var(--font-color) !important;
     color: #000000 !important;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px 20px 20px 20px;
     border: 0px solid #ffffff00 !important;
     font-size: 26px !important;
     height: auto;
     min-height: 20px;
-    opacity: .7;
 }
 
-yt-live-chat-text-message-renderer #message {
-    font-family: "arial";
-    letter-spacing: 2px;
-    padding: 20px;
-    border-radius: 20px 20px 20px 20px;
-    background-color: var(--font-color) !important;
-    color: #000000 !important;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px 20px 20px 20px;
-    border: 0px solid #ffffff00 !important;
-    font-size: 26px !important;
-    height: auto;
-    min-height: 20px;
-    opacity: .7;
-}
 
 yt-live-chat-text-message-renderer,
 yt-live-chat-text-message-renderer[is-highlighted] {
     background-color: transparent !important;
+    
 }
 
 yt-live-chat-text-message-renderer[author-type="owner"],
 yt-live-chat-text-message-renderer[author-type="owner"][is-highlighted] {
     background-color: transparent !important;
+    
 }
 
 #massage,
@@ -178,12 +150,13 @@ yt-live-chat-text-message-renderer[author-type="owner"] {
 yt-live-chat-text-message-renderer[author-type="moderator"],
 yt-live-chat-text-message-renderer[author-type="moderator"][is-highlighted] {
     background-color: transparent !important;
-
+    
 }
 
 yt-live-chat-text-message-renderer[author-type="member"],
 yt-live-chat-text-message-renderer[author-type="member"][is-highlighted] {
     background-color: transparent !important;
+    
 }
 
 yt-live-chat-author-chip #author-name {
