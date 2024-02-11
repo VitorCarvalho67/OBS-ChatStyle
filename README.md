@@ -6,7 +6,7 @@
 
 
 [![GitHub license](https://img.shields.io/github/license/vitorcarvalho67/OBS-ChatStyle)](vitorcarvalho67/OBS-ChatStyle/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/vitorcarvalho67/OBS-ChatStyle) ![GitHub stars](https://img.shields.io/github/languages/count/vitorcarvalho67/OBS-ChatStyle) ![GitHub stars](https://img.shields.io/github/languages/top/vitorcarvalho67/OBS-ChatStyle) ![GitHub last commit](https://img.shields.io/github/last-commit/vitorcarvalho67/OBS-ChatStyle)
-
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a260906ca80f48eb806d9cb17f6acc14)](https://app.codacy.com/gh/VitorCarvalho67/OBS-ChatStyle/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 
 
