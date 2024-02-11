@@ -36,10 +36,10 @@ You can customize the colors of your chat by just changing the variables, here i
 ```css
 :root {
     --font-color: #ffffff;
-    --general-color: #00bb6d;
     --background-owner: #f710ff;
     --background-moderator: #5810ff;
     --background-member: #10c7ff;
+    --background-general: #00ee93;
 }
 ```
 

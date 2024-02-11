@@ -3,10 +3,10 @@
 
 :root {
     --font-color: #ffffff;
-    --general-color: #00bb6d;
     --background-owner: #f710ff;
     --background-moderator: #5810ff;
     --background-member: #10c7ff;
+    --background-general: #00ee93;
 }
 
 /* Background colors*/
@@ -130,13 +130,11 @@ yt-live-chat-text-message-renderer[author-type="member"] #message {
 yt-live-chat-text-message-renderer,
 yt-live-chat-text-message-renderer[is-highlighted] {
     background-color: transparent !important;
-    
 }
 
 yt-live-chat-text-message-renderer[author-type="owner"],
 yt-live-chat-text-message-renderer[author-type="owner"][is-highlighted] {
     background-color: transparent !important;
-    
 }
 
 #massage,
@@ -155,8 +153,7 @@ yt-live-chat-text-message-renderer[author-type="moderator"][is-highlighted] {
 
 yt-live-chat-text-message-renderer[author-type="member"],
 yt-live-chat-text-message-renderer[author-type="member"][is-highlighted] {
-    background-color: transparent !important;
-    
+    background-color: transparent !important;   
 }
 
 yt-live-chat-author-chip #author-name {
@@ -219,7 +216,7 @@ yt-live-chat-text-message-renderer #author-badges {
 }
 
 yt-live-chat-text-message-renderer #timestamp {
-    color: #ffffff !important;
+    color: var(--font-color) !important;
     font-family: "arial";
     letter-spacing: 2px;
     font-size: 16px !important;
@@ -262,19 +259,17 @@ yt-live-chat-text-message-renderer #author-name.member,
 yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="member"] {
     border: 2px solid var(--font-color);
     color: var(--font-color) !important;
-    background-color: #10c7ff !important;
+    background-color: var(--background-member) !important;
     padding: 10px !important;
     border-radius: 20px 20px 20px 20px !important;
     font-size: 24px !important;
-
-
 }
 
 /* Nama channel viewer biasa */
 yt-live-chat-text-message-renderer #author-name {
     color: var(--font-color) !important;
     border: 2px solid #ffffff00 !important;
-    background-color: #00ee93 !important;
+    background-color: var(--background-general) !important;
     padding: 10px !important;
     z-index: 2;
     border-radius: 20px 20px 20px 20px !important;
@@ -285,9 +280,8 @@ yt-live-chat-paid-message-renderer #author-name,
 yt-live-chat-paid-message-renderer #author-name *,
 yt-live-chat-legacy-paid-message-renderer #event-text,
 yt-live-chat-legacy-paid-message-renderer #event-text * {
-    color: #ffffff !important;
+    color: var(--font-color) !important;
     font-family: "Changa One";
-    font-size: 20px !important;
     line-height: 20px !important;
     font-size: 26px !important;
 }
@@ -296,20 +290,18 @@ yt-live-chat-paid-message-renderer #purchase-amount,
 yt-live-chat-paid-message-renderer #purchase-amount *,
 yt-live-chat-legacy-paid-message-renderer #detail-text,
 yt-live-chat-legacy-paid-message-renderer #detail-text * {
-    color: #ffffff !important;
+    color: var(--font-color) !important;
     font-family: "arial";
     letter-spacing: 2px;
-    font-size: 18px !important;
     line-height: 18px !important;
     font-size: 26px !important;
 }
 
 yt-live-chat-paid-message-renderer #content,
 yt-live-chat-paid-message-renderer #content * {
-    color: #ffffff !important;
+    color: var(--font-color) !important;
     font-family: "arial";
     letter-spacing: 2px;
-    font-size: 18px !important;
     line-height: 18px !important;
     font-size: 26px !important;
 }
@@ -350,7 +342,7 @@ yt-live-chat-ticker-paid-message-item-renderer,
 yt-live-chat-ticker-paid-message-item-renderer *,
 yt-live-chat-ticker-sponsor-item-renderer,
 yt-live-chat-ticker-sponsor-item-renderer * {
-    color: #ffffff !important;
+    color: var(--font-color) !important;
     font-family: "arial";
     letter-spacing: 2px;
 }
