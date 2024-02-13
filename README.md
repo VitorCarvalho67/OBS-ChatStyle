@@ -1,3 +1,10 @@
+<h4 align="center">
+    <p>
+        <b>English</b> |
+        <a href="https://github.com/VitorCarvalho67/OBS-ChatStyle/blob/main/README_pt-br.md">Рortuguês</a>
+    </p>
+</h4>
+
 <p align="center">
   <img src="https://github.com/VitorCarvalho67/OBS-ChatStyle/assets/102667323/7d7f4918-0fb5-4d1f-be50-cd2f13a2d5a1" style=" width: 600px;" alt="Imagem logo" />
 </p>
@@ -28,7 +35,7 @@ Navigate to the project directory
 cd OBS-ChatStyle
 ```
 
-copy the code below and paste it into a browser source in OBS.
+copy the code the file 'style.scss' and paste it into a browser source in OBS.
 
 ## Customization
 You can customize the colors of your chat by just changing the variables, here is where you should change
