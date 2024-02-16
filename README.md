@@ -19,8 +19,11 @@
 
 OBS-ChatStyle represents a milestone for content creators using Open Broadcaster Software (OBS) in their live broadcasts. This innovative project brings a series of visually appealing and dynamic chat styles designed to seamlessly integrate into the streaming environment. Aiming to promote more visual and engaging interactions, OBS-ChatStyle allows streamers to customize the appearance of live chat, making each broadcast unique and captivating. This tool not only enriches the visual experience for the audience, but also offers creators a way to highlight important messages and interact with their community more effectively, raising the level of professionalism and personalization in their lives.
 
-<p align="center">
-  <img src="https://github.com/VitorCarvalho67/Grafhy-SSM/assets/102667323/7830c08b-7516-4103-b307-ed89eae80adf" alt="Imagem logo" />
+<p style="display: flex !important; flex-direction: column !important; justify-content: center !important; align-items: center !important;">
+    <h3>Style - 1 (style.scss)<h3>
+  <img src="https://cdn.discordapp.com/attachments/1035898510874259488/1207859368603816007/Screenshot_301.png?ex=65e12db2&is=65ceb8b2&hm=a13482ad566648ab4273ccd14c2279e6c4dee9a44d6d17666710e87af06dbbf0&" style="width: 600px; height: 300px; object-fit: cover;" alt="Imagem logo" />
+    <h3>Style - 2 (style2.scss)<h3>
+  <img src="https://media.discordapp.net/attachments/1035898510874259488/1207859271551684708/Screenshot_302.png?ex=65e12d9b&is=65ceb89b&hm=6ae6e800a014cbb137bc71d946d765b528cc515bcec12d2e93c783d65e9f5840&=&format=webp&quality=lossless" style="width: 600px; height: 300px; object-fit: cover;" alt="Imagem logo" />
 </p>
 
 ## How to use
