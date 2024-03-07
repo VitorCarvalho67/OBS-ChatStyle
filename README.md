@@ -23,7 +23,7 @@ OBS-ChatStyle represents a milestone for content creators using Open Broadcaster
     <h3>Style - 1 (style.scss)<h3>
   <img src="https://cdn.discordapp.com/attachments/1035898510874259488/1207859368603816007/Screenshot_301.png?ex=65e12db2&is=65ceb8b2&hm=a13482ad566648ab4273ccd14c2279e6c4dee9a44d6d17666710e87af06dbbf0&" style="width: 600px; height: 300px; object-fit: cover;" alt="Imagem logo" />
     <h3>Style - 2 (style2.scss)<h3>
-  <img src="https://media.discordapp.net/attachments/1035898510874259488/1207859271551684708/Screenshot_302.png?ex=65e12d9b&is=65ceb89b&hm=6ae6e800a014cbb137bc71d946d765b528cc515bcec12d2e93c783d65e9f5840&=&format=webp&quality=lossless" style="width: 600px; height: 300px; object-fit: cover;" alt="Imagem logo" />
+  <img src="https://github.com/VitorCarvalho67/OBS-ChatStyle/assets/102667323/d2ed558a-bd56-4ea6-92e3-eb43eeaa8c08" style="width: 600px; height: 300px; object-fit: cover;" alt="Imagem logo" />
 </p>
 
 ## How to use
