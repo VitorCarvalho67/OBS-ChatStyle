@@ -23,17 +23,11 @@ OBS-ChatStyle represents a milestone for content creators using Open Broadcaster
 
 <p style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <h4>Style - 1 (style1.scss)<h4>
-    <img 
-    src="https://i.imgur.com/KjqGPZ3.png" 
-    style="width: 800px; height: 200px; object-fit: cover;" alt="style1"/>
+    <img src="https://i.imgur.com/CPEuI5o.png" alt="style1"/>
     <h4>Style - 2 (style2.scss)<h4>
-    <img 
-    src="https://i.imgur.com/FqKJvSq.png" 
-    style="width: 800px; height: 200px; object-fit: cover;" alt="style2"/>
+    <img src="https://i.imgur.com/aLi0Hib.png" alt="style2"/>
     <h4>Style - 3 (style3.scss)<h4>
-    <img 
-    src="https://i.imgur.com/MEfEULA.png" 
-    style="width: 800px; height: 200px; object-fit: cover;" alt="style3"/>
+    <img src="https://i.imgur.com/QzptL3s.png" alt="style3"/>
 </p>
 
 ## How to use
