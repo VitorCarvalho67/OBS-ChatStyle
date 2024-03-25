@@ -11,7 +11,6 @@
 
 # OBS-ChatStyle
 
-
 [![GitHub license](https://img.shields.io/github/license/vitorcarvalho67/OBS-ChatStyle)](vitorcarvalho67/OBS-ChatStyle/blob/master/LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/vitorcarvalho67/OBS-ChatStyle)
 ![GitHub languages top](https://img.shields.io/github/languages/top/vitorcarvalho67/OBS-ChatStyle)

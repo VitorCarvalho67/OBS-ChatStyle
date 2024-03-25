@@ -11,16 +11,22 @@
 
 # OBS-ChatStyle
 
-[![GitHub license](https://img.shields.io/github/license/vitorcarvalho67/OBS-ChatStyle)](vitorcarvalho67/OBS-ChatStyle/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/vitorcarvalho67/OBS-ChatStyle) ![GitHub stars](https://img.shields.io/github/languages/count/vitorcarvalho67/OBS-ChatStyle) ![GitHub stars](https://img.shields.io/github/languages/top/vitorcarvalho67/OBS-ChatStyle) ![GitHub last commit](https://img.shields.io/github/last-commit/vitorcarvalho67/OBS-ChatStyle)
+[![GitHub license](https://img.shields.io/github/license/vitorcarvalho67/OBS-ChatStyle)](vitorcarvalho67/OBS-ChatStyle/blob/master/LICENSE)
+![GitHub stars](https://img.shields.io/github/stars/vitorcarvalho67/OBS-ChatStyle)
+![GitHub languages top](https://img.shields.io/github/languages/top/vitorcarvalho67/OBS-ChatStyle)
+![GitHub last commit](https://img.shields.io/github/last-commit/vitorcarvalho67/OBS-ChatStyle)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a260906ca80f48eb806d9cb17f6acc14)](https://app.codacy.com/gh/VitorCarvalho67/OBS-ChatStyle/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 
 OBS-ChatStyle representa um marco para criadores de conteúdo que usam o Open Broadcaster Software (OBS) em suas transmissões ao vivo. Este projeto inovador traz uma série de estilos de chat visualmente atraentes e dinâmicos, projetados para se integrar perfeitamente ao ambiente de streaming. Com o objetivo de promover interações mais visuais e envolventes, o OBS-ChatStyle permite que os streamers personalizem a aparência do chat ao vivo, tornando cada transmissão única e cativante. Esta ferramenta não apenas enriquece a experiência visual para o público, mas também oferece aos criadores uma maneira de destacar mensagens importantes e interagir com sua comunidade de forma mais eficaz, elevando o nível de profissionalismo e personalização em suas vidas.
 
-<p style="display: flex !important; flex-direction: column !important; justify-content: center !important; align-items: center !important;">
-    <h3>Style - 1 (style.scss)<h3>
-  <img src="https://cdn.discordapp.com/attachments/1035898510874259488/1207859368603816007/Screenshot_301.png?ex=65e12db2&is=65ceb8b2&hm=a13482ad566648ab4273ccd14c2279e6c4dee9a44d6d17666710e87af06dbbf0&" style="width: 600px; height: 300px; object-fit: cover;" alt="Imagem logo" />
-    <h3>Style - 2 (style2.scss)<h3>
-  <img src="https://github.com/VitorCarvalho67/OBS-ChatStyle/assets/102667323/d2ed558a-bd56-4ea6-92e3-eb43eeaa8c08" style="width: 600px; height: 300px; object-fit: cover;" alt="Imagem logo" />
+<p style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h4>Style - 1 (style1.scss)<h4>
+    <img src="https://i.imgur.com/CPEuI5o.png" alt="style1"/>
+    <h4>Style - 2 (style2.scss)<h4>
+    <img src="https://i.imgur.com/aLi0Hib.png" alt="style2"/>
+    <h4>Style - 3 (style3.scss)<h4>
+    <img src="https://i.imgur.com/QzptL3s.png" alt="style3"/>
 </p>
 
 ## Como usar
