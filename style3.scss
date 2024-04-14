@@ -61,7 +61,7 @@ yt-live-chat-text-message-renderer #message {
     margin-top: -25px;
     font-family: "lato";
     letter-spacing: .5px;
-    padding: 20px;
+    padding: 18px;
     background-color: #000000a8 !important;
     border-radius: 20px 20px 20px 20px;
     color: var(--font-color) !important;
@@ -76,7 +76,7 @@ yt-live-chat-text-message-renderer #message {
 yt-live-chat-text-message-renderer[author-type="owner"] #messgae {
     font-family: "arial";
     letter-spacing: 2px;
-    padding: 20px;
+    padding: 18px;
     background-color: #000000a8 !important;
     color: var(--font-color) !important;
     border-radius: 20px 20px 20px 20px;
@@ -111,7 +111,7 @@ yt-live-chat-text-message-renderer #message::before {
 yt-live-chat-text-message-renderer[author-type="moderator"] #message {
     font-family: "arial";
     letter-spacing: 2px;
-    padding: 20px;
+    padding: 18px;
     color: var(--font-color) !important;
     background-color: #000000a8;
     border-radius: 20px 20px 20px 20px;
@@ -125,7 +125,7 @@ yt-live-chat-text-message-renderer[author-type="moderator"] #message {
 yt-live-chat-text-message-renderer[author-type="member"] #message {
     font-family: "arial";
     letter-spacing: 2px;
-    padding: 20px;
+    padding: 18px;
     border-radius: 20px 20px 20px 20px;
     background-color: #000000a8 !important;
     color: var(--font-color) !important;
@@ -182,7 +182,7 @@ yt-live-chat-renderer * {
 yt-live-chat-text-message-renderer #content,
 yt-live-chat-legacy-paid-message-renderer #content {
     overflow: initial !important;
-    padding: 5px;
+    padding: 0px;
 }
 
 yt-live-chat-item-list-renderer #items {
@@ -219,7 +219,7 @@ yt-live-chat-legacy-paid-message-renderer #author-photo {
     height: 50px !important;
     border-radius: 100% !important;
     margin-right: 6px !important;
-    margin-top: 56px !important;
+    margin-top: 26px !important;
 }
 
 yt-live-chat-text-message-renderer #author-photo img,
@@ -250,7 +250,7 @@ yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="owne
     color: var(--font-color) !important;
     border: 2px solid #ffffff00 !important;
     background-color: transparent !important;
-    padding: 10px !important;
+    padding: 0px !important;
     z-index: 2;
     border-radius: 20px 20px 20px 20px !important;
     font-size: 22px !important;
@@ -263,7 +263,7 @@ yt-live-chat-text-message-renderer #author-name.moderator {
     color: var(--font-color) !important;
     border: 2px solid var(--font-color);
     background-color: transparent !important;
-    padding: 10px !important;
+    padding: 0px !important;
     z-index: 2;
     border-radius: 20px 20px 20px 20px !important;
     font-size: 22px !important;
@@ -282,7 +282,7 @@ yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="memb
     border: 2px solid var(--font-color);
     color: var(--font-color) !important;
     background-color: var(--background-member) !important;
-    padding: 10px !important;
+    padding: 0px !important;
     border-radius: 20px 20px 20px 20px !important;
     font-size: 22px !important;
     opacity: .95;
@@ -293,7 +293,7 @@ yt-live-chat-text-message-renderer #author-name {
     color: var(--font-color) !important;
     border: 2px solid #ffffff00 !important;
     background-color: transparent !important;
-    padding: 10px !important;
+    padding: 0px !important;
     z-index: 2;
     border-radius: 20px 20px 20px 20px !important;
     font-size: 22px !important;
